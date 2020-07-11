@@ -3,7 +3,7 @@ title:  "AWS setup"
 subtitle: "Enjoy AWS free tear setup"
 author: "eddytools"
 avatar: "img/authors/eddytools.png"
-image: "img/d.jpg"
+image: "img/server.jpg"
 date:   2015-04-24 12:12:12
 ---
 

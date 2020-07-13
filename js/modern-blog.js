@@ -48,17 +48,17 @@ var demo = (function (window) {
     var init = function () {
 
         // For options see: https://github.com/qrohlf/Trianglify
-        var pattern = Trianglify({
-            width: window.innerWidth,
-            height: window.innerHeight,
-            cell_size: 90,
-            variance: 1,
-            stroke_width: 1,
-            x_colors: 'random',
-            y_colors: 'random'
-        }).svg(); // Render as SVG.
+        // var pattern = Trianglify({
+        //     width: window.innerWidth,
+        //     height: window.innerHeight,
+        //     cell_size: 90,
+        //     variance: 1,
+        //     stroke_width: 1,
+        //     x_colors: 'random',
+        //     y_colors: 'random'
+        // }).svg(); // Render as SVG.
 
-        _mapPolygons(pattern);
+        // _mapPolygons(pattern);
 
         _bindCards();
 
@@ -150,7 +150,7 @@ var demo = (function (window) {
         }
 
         // Create timeline for the whole sequence.
-        var sequence = new TimelineLite({paused: true});
+        var sequence = new TimelineLite({ paused: true });
 
         var tweenOtherCards = _showHideOtherCards(id);
 
@@ -294,12 +294,12 @@ var demo = (function (window) {
         // Workaround for event.newURL and event.oldURL for Internet Explorer
         // source: https://developer.mozilla.org/en/docs/Web/API/WindowEventHandlers/onhashchange
         //let this snippet run before your hashchange event binding code
-        if(!window.HashChangeEvent)(function(){
-            var lastURL=document.URL;
-            window.addEventListener("hashchange",function(event){
-                Object.defineProperty(event,"oldURL",{enumerable:true,configurable:true,value:lastURL});
-                Object.defineProperty(event,"newURL",{enumerable:true,configurable:true,value:document.URL});
-                lastURL=document.URL;
+        if (!window.HashChangeEvent) (function () {
+            var lastURL = document.URL;
+            window.addEventListener("hashchange", function (event) {
+                Object.defineProperty(event, "oldURL", { enumerable: true, configurable: true, value: lastURL });
+                Object.defineProperty(event, "newURL", { enumerable: true, configurable: true, value: document.URL });
+                lastURL = document.URL;
             });
         }());
 

@@ -5,8 +5,9 @@ overflow: hidden;
 } */
 
 #stars {
-width: 1px;
-height: 1px;
+width: 2px;
+height: 2px;
+border-radius: 10px;
 background: transparent;
 box-shadow: 736px 779px #FFF, 1067px 653px #FFF, 1986px 1931px #FFF, 1175px 1376px #FFF, 1259px 1176px #FFF, 101px 190px
 #FFF, 661px 341px #FFF, 1658px 1198px #FFF, 1596px 1418px #FFF, 201px 1224px #FFF, 1619px 368px #FFF, 603px 97px #FFF,
@@ -127,7 +128,7 @@ animation: animStar 50s linear infinite;
 #stars:after {
 content: " ";
 position: absolute;
-top: 2000px;
+bottom: 0;
 width: 1px;
 height: 1px;
 background: transparent;
@@ -288,7 +289,7 @@ animation: animStar 100s linear infinite;
 #stars2:after {
 content: " ";
 position: absolute;
-top: 2000px;
+bottom: 0px;
 width: 2px;
 height: 2px;
 background: transparent;
@@ -353,7 +354,7 @@ animation: animStar 150s linear infinite;
 #stars3:after {
 content: " ";
 position: absolute;
-top: 2000px;
+bottom: 0px;
 width: 3px;
 height: 3px;
 background: transparent;

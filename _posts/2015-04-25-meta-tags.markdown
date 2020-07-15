@@ -3,7 +3,7 @@ title:  "Meta Tag Generator"
 subtitle: "SEO metatags"
 author: "Ashish"
 avatar: "img/authors/eddytools.png"
-image: "img/seo-google.jpg"
+image: "img/e.jpg"
 date:   2020-06-10 12:12:12
 ---
 

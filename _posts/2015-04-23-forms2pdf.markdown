@@ -3,7 +3,7 @@ title:  "Excel to PDF"
 subtitle: "Convert your excel row to A4 PDF"
 author: "Ashish"
 avatar: "img/authors/eddytools.png"
-image: "img/forms3.jpg"
+image: "img/d.jpg"
 date:   2015-04-23 12:12:12
 ---
 

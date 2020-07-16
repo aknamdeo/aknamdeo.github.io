@@ -1,7 +1,0 @@
-# Site settings
-title: EddyTools Blog
-description: EddyTools, Tools for web development
-keywords: EddyTools Web Development
-author: eddytools
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
